@@ -1,6 +1,6 @@
 {
-  "name": "a02-shawnk04",
-  "version": "1.0.0",
+  "name": "coinflip",
+  "version": "0.0.1",
   "type": "module",
   "description": "Coins",
   "main": "flip.js",
