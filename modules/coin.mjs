@@ -92,7 +92,6 @@ function flipACoin(call) {
   return ["call: " + call, "flip: " + flip, "result: " + ((flip == call) ? "win" : "lose")];
 }
 
-console.log(flipACoin("heads"));
 
 /** Export 
  * 
