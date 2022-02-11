@@ -8,6 +8,7 @@ args["number"];
 if (args.number == undefined || args.number == "") {
     let emptyflips = coinFlips(1);
     console.log(emptyflips);
+    console.log(countFlips(emptyflips));
 }
 else {
     let num = args.number;
