@@ -62,15 +62,15 @@ function coinFlips(flips) {
 
 function countFlips(array) {
   const result = {
-    headsCount: 0,
-    tailsCount: 0
+    tails: 0,
+    heads: 0
   };
   for (let i = 0; i < array.length; i++) {
     if (array[i] ==  "heads") {
-      result.headsCount++;
+      result.heads++;
     }
     else {
-      result.tailsCount++;
+      result.tails++;
     }
   }
   return result;
