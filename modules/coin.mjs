@@ -65,12 +65,22 @@ function countFlips(array) {
     tails: 0,
     heads: 0
   };
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] ==  "heads") {
-      result.heads++;
+  if (array.length == 1) {
+    if (array[0] ==  "heads") {
+       return { heads: 1 };
     }
     else {
-      result.tails++;
+      return { tails: 1 };
+    }
+  }
+  else {
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] ==  "heads") {
+        result.heads++;
+      }
+      else {
+        result.tails++;
+      }
     }
   }
   return result;
